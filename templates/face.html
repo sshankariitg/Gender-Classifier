@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block bodyblock %}
+<div class='container'>
+    <h3>Gender Classifier</h3>
+    <p class="content" style="color:indigo">Here is the predictor. Click on the try button to upload images</p>
+    <br>
+    <img src="{{url_for('static',filename='images/images.png')}}" class="win">
+<br>
+<div align="center">
+<a href="{{url_for('gender')}}" class="btn btn-outline-primary">Try it!</a>
+</div>
+
+{% endblock %}
