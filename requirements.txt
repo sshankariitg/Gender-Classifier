@@ -37,7 +37,7 @@ notebook==6.4.0
 numpy==1.18.1
 opencv-python==4.5.2.52
 packaging==20.9
-pandas==1.2.4
+pandas==1.0.1
 pandocfilters==1.4.3
 parso==0.8.2
 pickleshare==0.7.5
